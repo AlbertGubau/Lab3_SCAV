@@ -29,7 +29,7 @@ This script is able to livestream the BBB video using ffmpeg. The implementation
 
 ## Task 4 (no script associated, only screenshots)
 For this exercise, I used a Twitch livestreaming to see what protocols and codecs uses.
-To do so, I used the dev tools and I found that the streaming protocol used was HLS as it had .m3u8 and .ts files to livestream.
+To do so, I used the dev tools in Chrome and I found that the streaming protocol used was HLS as it had .m3u8 and .ts files to livestream.
 Then I also analyzed one .ts segment in order to see the video codec that it uses and I found that it uses **h264** and **aac** codecs. But also, it uses some codecs that ffprobe cannot detect for the second stream.
 
 The screenshots that explain this exercise are the following ones:
